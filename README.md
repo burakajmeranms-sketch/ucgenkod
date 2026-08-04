@@ -55,3 +55,10 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Alt navigasyon inceltildi; içerik alanı büyütüldü.
 - Ürün/kategori kartları ve hızlı işlemler daha az dikey alan kullanıyor.
 - Backend/D1/R2/QR işlevlerine dokunulmadı.
+
+## V5.7 True Triangle Signature
+- Görsel kod gövdesi artık gerçekten üçgendir.
+- Üç tarama gözü tepe, sol alt ve sağ alt köşededir.
+- Merkezde işletme monogramı için üçgen logo alanı bulunur.
+- `/api/qr-standard/:slug` standart, yüksek uyumluluklu QR yedeğini üretir.
+- Üçgen imza formu ISO QR standardı değildir; baskı öncesi hedef cihazlarda tarama testi gerekir.
