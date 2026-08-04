@@ -56,9 +56,9 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Ürün/kategori kartları ve hızlı işlemler daha az dikey alan kullanıyor.
 - Backend/D1/R2/QR işlevlerine dokunulmadı.
 
-## V5.7 True Triangle Signature
-- Görsel kod gövdesi artık gerçekten üçgendir.
-- Üç tarama gözü tepe, sol alt ve sağ alt köşededir.
-- Merkezde işletme monogramı için üçgen logo alanı bulunur.
-- `/api/qr-standard/:slug` standart, yüksek uyumluluklu QR yedeğini üretir.
-- Üçgen imza formu ISO QR standardı değildir; baskı öncesi hedef cihazlarda tarama testi gerekir.
+## V5.8 Dark Triangle UI
+- QR & Yayın ekranı kullanıcının onayladığı koyu/siyah-altın referans tasarıma geçirildi.
+- Ana görselde ÜÇGENKOD üçgen imza formu kullanılır.
+- Kalıcı bağlantı, istatistik kartları ve hızlı aksiyonlar tek ekranda toplandı.
+- Gerçek tarama için standart QR endpoint'i korunur ve 'QR'ı İndir' üzerinden açılır.
+- D1/R2/hesap/ürün altyapısı değiştirilmedi.
