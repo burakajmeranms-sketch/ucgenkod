@@ -36,3 +36,8 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - PBKDF2 maliyeti mobil/Workers uyumu için 120.000 iterasyona ayarlandı.
 - `/api/diag/schema` temel D1 tablolarının kolonlarını gösterir.
 - Worker adı `ucgenkod` ile eşitlendi.
+
+
+## V5.3 PBKDF2 Fix
+- Cloudflare Workers PBKDF2 sınırına uyum için iterasyon sayısı 120000'den 100000'e indirildi.
+- Kayıt ve giriş akışındaki diğer V5.2 düzeltmeleri aynen korundu.
