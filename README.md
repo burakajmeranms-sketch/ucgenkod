@@ -41,3 +41,10 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 ## V5.3 PBKDF2 Fix
 - Cloudflare Workers PBKDF2 sınırına uyum için iterasyon sayısı 120000'den 100000'e indirildi.
 - Kayıt ve giriş akışındaki diğer V5.2 düzeltmeleri aynen korundu.
+
+## V5.4 Studio Pro
+- İşletme paneli baştan tasarlandı: premium mobil/desktop Studio arayüzü.
+- D1, R2, kayıt, giriş, kalıcı menü ve QR backend davranışı değiştirilmedi.
+- Ürün işlemlerine kaydetme durumu, boyut kontrolü ve daha güvenli hata geri bildirimi eklendi.
+- Görünüm ekranına gerçek canlı menü iframe önizlemesi eklendi.
+- Mobil Safari için safe-area, bottom navigation ve modal/klavye davranışları iyileştirildi.
