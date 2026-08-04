@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ucgenkod-v5",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-04",
+  "d1_databases": [{ "binding": "DB" }],
+  "r2_buckets": [{ "binding": "MEDIA" }],
+  "vars": { "APP_NAME": "ÜÇGENKOD" }
+}

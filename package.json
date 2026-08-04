@@ -1,0 +1,16 @@
+{
+  "name": "ucgenkod-v5-saas",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "check": "node --check worker.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.68.0"
+  }
+}
