@@ -56,9 +56,10 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Ürün/kategori kartları ve hızlı işlemler daha az dikey alan kullanıyor.
 - Backend/D1/R2/QR işlevlerine dokunulmadı.
 
-## V5.8 Dark Triangle UI
-- QR & Yayın ekranı kullanıcının onayladığı koyu/siyah-altın referans tasarıma geçirildi.
-- Ana görselde ÜÇGENKOD üçgen imza formu kullanılır.
-- Kalıcı bağlantı, istatistik kartları ve hızlı aksiyonlar tek ekranda toplandı.
-- Gerçek tarama için standart QR endpoint'i korunur ve 'QR'ı İndir' üzerinden açılır.
-- D1/R2/hesap/ürün altyapısı değiştirilmedi.
+## V5.9 Scannable ÜÇGEN QR
+- Bozuk/standart dışı üçgen QR motorları kaldırıldı.
+- QR matrisi eksiksiz korunur ve ECC-H kullanılır.
+- Veri modülleri üçgen biçiminde çizilir.
+- Finder pattern'lar standart konum ve geometride bırakılır; telefon kamerası uyumluluğu korunur.
+- Merkezde küçük üçgen marka işareti bulunur.
+- `/api/qr/:slug` standart yedek QR olarak korunur.
