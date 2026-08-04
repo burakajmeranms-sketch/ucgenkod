@@ -63,3 +63,15 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Finder pattern'lar standart konum ve geometride bırakılır; telefon kamerası uyumluluğu korunur.
 - Merkezde küçük üçgen marka işareti bulunur.
 - `/api/qr/:slug` standart yedek QR olarak korunur.
+
+## V6.0 Production Final
+- QR veri matrisi ve finder pattern'lar eksiksiz korunur.
+- Veri hücreleri iki üçgen parçayla neredeyse tam hücre doluluğunda çizilir.
+- ECC-H kullanılır ve merkez marka işareti küçük tutulur.
+- Temsilî `/m/test-cafe` URL'si üzerinde decode doğrulaması yapıldı:
+  - native boyut: başarılı
+  - 600 / 480 / 360 / 300 / 240 px: başarılı
+  - ±4° ve ±8° rotasyon: başarılı
+  - hafif blur: başarılı
+- Standart QR yedeği `/api/qr/:slug` olarak korunur.
+- D1, R2, auth, ürün ve menü altyapısına dokunulmadı.
