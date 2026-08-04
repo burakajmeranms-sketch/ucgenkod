@@ -20,3 +20,11 @@ V5 özellikleri:
 - Tema paletleri
 
 Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında plan alanı hazırlanmıştır.
+
+
+## V5.1 HOTFIX
+- Worker adı `ucgenkod` olarak eşitlendi.
+- `/api/health` D1/R2 ve şema durumunu gösterir.
+- `/api/diag` D1 tablolarını doğrular.
+- Kayıt akışı aşama bazlı hata teşhisi ve güvenli temizlik içerir.
+- Geçici olarak API hataları `requestId`, `stage` ve kısa `detail` döndürür; sorun çözüldükten sonra ayrıntı alanı kaldırılabilir.
