@@ -48,3 +48,10 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Ürün işlemlerine kaydetme durumu, boyut kontrolü ve daha güvenli hata geri bildirimi eklendi.
 - Görünüm ekranına gerçek canlı menü iframe önizlemesi eklendi.
 - Mobil Safari için safe-area, bottom navigation ve modal/klavye davranışları iyileştirildi.
+
+## V5.5 Studio Final Polish
+- Üst marka alanındaki bozuk şekil giderildi; gerçek üçgen marka işareti kullanıldı.
+- Mobil kartlar, boşluklar ve tipografi daha kompakt hale getirildi.
+- Alt navigasyon inceltildi; içerik alanı büyütüldü.
+- Ürün/kategori kartları ve hızlı işlemler daha az dikey alan kullanıyor.
+- Backend/D1/R2/QR işlevlerine dokunulmadı.
