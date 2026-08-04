@@ -28,3 +28,11 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - `/api/diag` D1 tablolarını doğrular.
 - Kayıt akışı aşama bazlı hata teşhisi ve güvenli temizlik içerir.
 - Geçici olarak API hataları `requestId`, `stage` ve kısa `detail` döndürür; sorun çözüldükten sonra ayrıntı alanı kaldırılabilir.
+
+
+## V5.2 Signup Fix
+- Kayıt hatası artık arayüzde `stage · detail` olarak görünür.
+- Oturum bitiş tarihi SQLite fonksiyonuna bırakılmadan Worker tarafından ISO tarih olarak yazılır.
+- PBKDF2 maliyeti mobil/Workers uyumu için 120.000 iterasyona ayarlandı.
+- `/api/diag/schema` temel D1 tablolarının kolonlarını gösterir.
+- Worker adı `ucgenkod` ile eşitlendi.
