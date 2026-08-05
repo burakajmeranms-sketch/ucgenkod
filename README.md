@@ -75,3 +75,9 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
   - hafif blur: başarılı
 - Standart QR yedeği `/api/qr/:slug` olarak korunur.
 - D1, R2, auth, ürün ve menü altyapısına dokunulmadı.
+
+## V6.1 Signature Site
+- QR & Yayın ekranı onaylanan siyah/altın üçgen ürün görseline göre yeniden tasarlandı.
+- Üçgen plaka, üç köşe işaretleri, beyaz nokta dokusu, merkez ÜÇGENKOD imzası ve mermer taban hissi eklendi.
+- Taranabilir QR çekirdeği, üçgen objenin içinde güvenli biçimde korunur.
+- D1, R2, auth, ürün, kategori ve müşteri menüsü backend'i değiştirilmedi.
