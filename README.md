@@ -89,3 +89,10 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Logonun altında küçük 'ÜÇGENKOD' yazısı bulunur.
 - Merkez marka alanı konservatif tutulur; üç finder pattern ve quiet zone korunur.
 - `/api/qr/:slug` standart yedek QR olarak kalır.
+
+## V6.3 Clean Logo QR Final
+- Eski büyük üçgen iskelet, üçgen plaka ve ekstra QR gözleri QR & Yayın ekranından tamamen kaldırıldı.
+- Ekranda tek bir standart kare QR gösterilir.
+- QR merkezinde küçük üçgen ÜÇGENKOD logosu ve küçük ÜÇGENKOD yazısı bulunur.
+- ECC-H, quiet zone ve üç finder pattern korunur.
+- Standart yedek QR endpoint'i korunur.
