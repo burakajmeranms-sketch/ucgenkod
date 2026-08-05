@@ -96,3 +96,11 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - QR merkezinde küçük üçgen ÜÇGENKOD logosu ve küçük ÜÇGENKOD yazısı bulunur.
 - ECC-H, quiet zone ve üç finder pattern korunur.
 - Standart yedek QR endpoint'i korunur.
+
+## V7.0 Red / White / Black Elite
+- Tema kırmızı, beyaz ve siyah premium kimliğe geçirildi.
+- Tam ekran kırmızı intro eklendi.
+- Intro merkezinde küçük ÜÇGENKOD üçgen logosu bulunur.
+- Altında %0 → %100 animasyonlu sayaç ve ince yükleme çizgisi çalışır.
+- Panel kartları, navigasyon, formlar ve QR ekranı koyu elit tasarıma uyarlandı.
+- Backend, D1, R2, auth, ürün ve QR üretim mantığına dokunulmadı.
