@@ -110,3 +110,9 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Kırmızı %0 → %100 intro ana sayfada da çalışır.
 - Yeni premium hero, ÜÇGENKOD cihaz görseli, güven unsurları, özellik kartları ve güçlü CTA alanı eklendi.
 - Backend, hesap sistemi, panel, D1, R2 ve QR mantığı değiştirilmedi.
+
+## V7.1.1 Intro Fix
+- Ana sayfa intro zamanlama hatası giderildi.
+- Sayaç DOM oluşturulduktan sonra başlar.
+- %0 → %100 animasyonu requestAnimationFrame ile çalışır.
+- 100% sonrası intro otomatik kapanır ve DOM'dan kaldırılır.
