@@ -122,3 +122,11 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Giriş Yap, Ücretsiz Başla, Ücretsiz Menü Oluştur, İşletme Paneli ve alt CTA aktif.
 - Kayıt ve giriş akışı mevcut `/api/auth/signup` ve `/api/auth/login` endpoint'lerine bağlıdır.
 - Oturum açıkken Giriş Yap / İşletme Paneli butonları Panele Git davranışına döner.
+
+## V7.1.3 Headline Final
+- Ana sayfa hero başlığı değiştirildi:
+  Değiştirdik!
+  Karekod değil,
+  ÜÇGENKOD.
+- ÜÇGENKOD satırı kırmızı vurgu olarak korunur.
+- Intro, tema, çalışan butonlar ve backend aynen korunur.
