@@ -81,3 +81,11 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Üçgen plaka, üç köşe işaretleri, beyaz nokta dokusu, merkez ÜÇGENKOD imzası ve mermer taban hissi eklendi.
 - Taranabilir QR çekirdeği, üçgen objenin içinde güvenli biçimde korunur.
 - D1, R2, auth, ürün, kategori ve müşteri menüsü backend'i değiştirilmedi.
+
+## V6.2 Logo QR Final
+- QR standardı kare matris olarak korunur.
+- ECC-H hata düzeltme seviyesi kullanılır.
+- Üçgen ÜÇGENKOD logosu QR'ın merkezine sabit yerleştirilir.
+- Logonun altında küçük 'ÜÇGENKOD' yazısı bulunur.
+- Merkez marka alanı konservatif tutulur; üç finder pattern ve quiet zone korunur.
+- `/api/qr/:slug` standart yedek QR olarak kalır.
