@@ -104,3 +104,9 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Altında %0 → %100 animasyonlu sayaç ve ince yükleme çizgisi çalışır.
 - Panel kartları, navigasyon, formlar ve QR ekranı koyu elit tasarıma uyarlandı.
 - Backend, D1, R2, auth, ürün ve QR üretim mantığına dokunulmadı.
+
+## V7.1 Homepage Elite
+- Paneldeki kırmızı / beyaz / siyah premium tema ana sayfaya taşındı.
+- Kırmızı %0 → %100 intro ana sayfada da çalışır.
+- Yeni premium hero, ÜÇGENKOD cihaz görseli, güven unsurları, özellik kartları ve güçlü CTA alanı eklendi.
+- Backend, hesap sistemi, panel, D1, R2 ve QR mantığı değiştirilmedi.
