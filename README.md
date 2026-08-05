@@ -116,3 +116,9 @@ Not: Ödeme/abonelik sağlayıcısı henüz bağlanmamıştır. Veritabanında p
 - Sayaç DOM oluşturulduktan sonra başlar.
 - %0 → %100 animasyonu requestAnimationFrame ile çalışır.
 - 100% sonrası intro otomatik kapanır ve DOM'dan kaldırılır.
+
+## V7.1.2 Homepage Buttons Fix
+- Yeni anasayfanın auth modalını silme hatası giderildi.
+- Giriş Yap, Ücretsiz Başla, Ücretsiz Menü Oluştur, İşletme Paneli ve alt CTA aktif.
+- Kayıt ve giriş akışı mevcut `/api/auth/signup` ve `/api/auth/login` endpoint'lerine bağlıdır.
+- Oturum açıkken Giriş Yap / İşletme Paneli butonları Panele Git davranışına döner.
